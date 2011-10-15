@@ -7,14 +7,34 @@
 //
 
 #include <iostream>
+#include <vector>
 using namespace std;
+
+int min = -1;
+
+struct coord
+{
+    int x;
+    int y;
+};
+
+void medwork(int w, int h)
+{
+    
+}
 
 void bigwork()
 {
     int w, h, n;
     cin >> w >> h >> n;
     
-    //...
+    vector<coord> crew;
+    for (int i = 0; i < n; i++)
+    {
+        coord t;
+        cin >> t.x >> t.y;
+        
+    }
 }
 
 void dowork()
