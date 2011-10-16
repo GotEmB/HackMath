@@ -10,6 +10,7 @@
 #include <vector>
 using namespace std;
 
+<<<<<<< HEAD
 int min = -1;
 
 struct coord
@@ -21,11 +22,22 @@ struct coord
 void medwork(int w, int h)
 {
     
+=======
+int spath = -1, npath = 0;
+int w, h;
+
+void smallwork(int pd[], int x, int y)
+{
+    if (x == w && y == h)
+    {
+        
+    }
+>>>>>>> blah edit in macbook
 }
 
 void bigwork()
 {
-    int w, h, n;
+    int n;
     cin >> w >> h >> n;
     
     vector<coord> crew;
