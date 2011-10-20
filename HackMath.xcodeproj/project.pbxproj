@@ -12,15 +12,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AC38E08314461EE700C8A886 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		AC38E09414461EFB00C8A886 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -34,20 +25,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AC38E08514461EE700C8A886 /* HackMath */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackMath; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC38E09614461EFB00C8A886 /* iforSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iforSample; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC38E09914461EFB00C8A886 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC38E09B14461EFB00C8A886 /* iforSample.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = iforSample.1; sourceTree = "<group>"; };
+		AC9A917B14502E0F004AACC1 /* question.md */ = {isa = PBXFileReference; fileEncoding = 4; path = question.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AC38E08214461EE700C8A886 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AC38E09314461EFB00C8A886 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,7 +53,6 @@
 		AC38E08614461EE700C8A886 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC38E08514461EE700C8A886 /* HackMath */,
 				AC38E09614461EFB00C8A886 /* iforSample */,
 			);
 			name = Products;
@@ -80,6 +63,7 @@
 			children = (
 				AC38E09914461EFB00C8A886 /* main.cpp */,
 				AC38E09B14461EFB00C8A886 /* iforSample.1 */,
+				AC9A917B14502E0F004AACC1 /* question.md */,
 			);
 			path = iforSample;
 			sourceTree = "<group>";
@@ -87,23 +71,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC38E08414461EE700C8A886 /* HackMath */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC38E08F14461EE700C8A886 /* Build configuration list for PBXNativeTarget "HackMath" */;
-			buildPhases = (
-				AC38E08114461EE700C8A886 /* Sources */,
-				AC38E08214461EE700C8A886 /* Frameworks */,
-				AC38E08314461EE700C8A886 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HackMath;
-			productName = HackMath;
-			productReference = AC38E08514461EE700C8A886 /* HackMath */;
-			productType = "com.apple.product-type.tool";
-		};
 		AC38E09514461EFB00C8A886 /* iforSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC38E09D14461EFB00C8A886 /* Build configuration list for PBXNativeTarget "iforSample" */;
@@ -141,20 +108,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC38E08414461EE700C8A886 /* HackMath */,
 				AC38E09514461EFB00C8A886 /* iforSample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AC38E08114461EE700C8A886 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AC38E09214461EFB00C8A886 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,20 +170,6 @@
 			};
 			name = Release;
 		};
-		AC38E09014461EE700C8A886 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		AC38E09114461EE700C8A886 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		AC38E09E14461EFB00C8A886 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -251,14 +196,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC38E08F14461EE700C8A886 /* Build configuration list for PBXNativeTarget "HackMath" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC38E09014461EE700C8A886 /* Debug */,
-				AC38E09114461EE700C8A886 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		AC38E09D14461EFB00C8A886 /* Build configuration list for PBXNativeTarget "iforSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -266,6 +203,7 @@
 				AC38E09F14461EFB00C8A886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
